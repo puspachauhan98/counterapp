@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import './style.css'
 
 const App=()=>{
-    const[number,setNumber]= useState(1)
+    const[number,setNumber]= useState(0)
 
     return<div>
         <h1> Counter App</h1>
